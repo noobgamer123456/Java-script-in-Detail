@@ -10,6 +10,8 @@
 
     <p id="sum"></p>
     <p id="mult"></p>
+    <p id="sub"></p>
+    <p id="div"></p>
 
     <script>
       //Regular function
@@ -22,8 +24,12 @@
       //Arrow function
 
       var mult = (a, b) => a * b;
+      var sub = (a, b) => a - b;
+      var div = (a, b) => a / b;
 
       document.getElementById("mult").innerHTML = mult(10, 15);
+      document.getElementById("sub").innerHTML = sub(10, 15);
+      document.getElementById("div").innerHTML = div(10, 15);
     </script>
   </body>
 </html>
