@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Arrow Function in JS</h1>
+
+    <p id="sum"></p>
+    <p id="mult"></p>
+
+    <script>
+      //Regular function
+
+      function add(a, b) {
+        return a + b;
+      }
+      document.getElementById("sum").innerHTML = add(10, 15);
+
+      //Arrow function
+
+      var mult = (a, b) => a * b;
+
+      document.getElementById("mult").innerHTML = mult(10, 15);
+    </script>
+  </body>
+</html>
